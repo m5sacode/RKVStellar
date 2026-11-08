@@ -1,0 +1,8 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Reources" style="flex-grow: 1; top: auto; position: absolute; height: 128px; width: 528px; left: 50%; border-top-left-radius: 64px; border-top-right-radius: 64px; border-bottom-right-radius: 64px; border-bottom-left-radius: 64px; background-color: rgba(26, 26, 26, 0.71); bottom: 30px; flex-direction: row; align-self: flex-start; transform-origin: center; translate: -50% 0; justify-content: space-around;">
+        <ui:VisualElement name="AntimatterBar" style="flex-grow: 1; position: absolute; top: 0%; bottom: 0%; left: 0%; aspect-ratio: 1; align-items: flex-start; flex-direction: row; flex-shrink: 0;"/>
+        <ui:VisualElement name="OreBar" style="flex-grow: 0; position: absolute; top: 0%; bottom: 0%; left: 25%; aspect-ratio: 1; align-items: flex-start; flex-direction: row; flex-shrink: 0;"/>
+        <ui:VisualElement name="FoodBar" style="flex-grow: 0; position: absolute; top: 0%; bottom: 0%; left: 50%; aspect-ratio: 1; align-items: flex-start; flex-direction: row; right: auto; flex-shrink: 0;"/>
+        <ui:VisualElement name="PeopleBar" style="flex-grow: 0; position: absolute; top: 0%; bottom: 0%; left: 75%; aspect-ratio: 1; align-items: flex-start; flex-direction: row; right: auto; flex-shrink: 0;"/>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,4 +1,4 @@
-# Unamed relativistic warfare game
+# RKVStellar
 
 
 
@@ -52,6 +52,24 @@
 
 
 
+###### *Resources:*
+
+* Antimatter:
+
+  * Ship and weapons fuel
+* Ore:
+
+  * Making anything
+* Refined Ore (maybe?)
+* Food
+
+  * Keeping people alive
+* People
+
+  * Speed of making stuff
+
+
+
 ###### *Travelling:*
 
 * Takes a shit ton of energy time and resources
@@ -86,7 +104,7 @@
 * When shit gets close to c it feels unfair to everyone as stuff moving away from you looks slow and stuff moving towards you feels very fast
 
   * Start at 0.2c or smth and let it ramp up slowlier so people understand the mechanics
-* We dont know what happens when that much energy 
+* We dont know what happens when that much energy
 
 
 
