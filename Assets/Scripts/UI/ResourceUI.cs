@@ -31,22 +31,22 @@ public class ResourceUI : MonoBehaviour
 
         // Create all four resource bars
         CreateResource(
-            root, "AntimatterBar", "Antimatter",
-            antimatterIcon, Color.red, 750, 1000
+            root, "AntimatterBar", "Antimatter", "GT",
+            antimatterIcon, Color.red, 20.5f, 100
         );
 
         CreateResource(
-            root, "OreBar", "Ore",
+            root, "OreBar", "Ore", "GT",
             oreIcon, Color.blue, 500, 1000
         );
 
         CreateResource(
-            root, "FoodBar", "Food",
+            root, "FoodBar", "Food", "Rations",
             foodIcon, Color.green, 900, 1000
         );
 
         CreateResource(
-            root, "PeopleBar", "People",
+            root, "PeopleBar", "People", "Billion People",
             peopleIcon, Color.yellow, 90, 100
         );
     }
@@ -55,6 +55,7 @@ public class ResourceUI : MonoBehaviour
         VisualElement root,
         string elementName,
         string resourceName,
+        string resourceUnit,
         Texture2D icon,
         Color color,
         float amount,
@@ -127,7 +128,7 @@ public class ResourceUI : MonoBehaviour
         container.Add(amountLabel);
 
         // Create resource name
-        var unitLabel = new Label(resourceName);
+        var unitLabel = new Label(resourceUnit);
 
         unitLabel.pickingMode = PickingMode.Ignore;
 
